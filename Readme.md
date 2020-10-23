@@ -38,9 +38,10 @@ The following command setups everything's needed to run the application: downloa
 
 ## Generating API docs
 
-## Generating interal API
+## Communicating with services
+### Interal API
 
-## Generating public API
+### Public API
 
 Let's assume that the developer prepared a function that takes parameters and returns and the result following by an optional error.
 
