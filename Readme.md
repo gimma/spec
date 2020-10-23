@@ -14,6 +14,28 @@ The project is not going to resolve all issues but as much as it's possible to t
 
 ## Using the CLI
 
+### Creating a new project
+
+```
+gimma new projectName
+```
+
+### Running tests
+
+```
+gimma test
+```
+
+The following command setups everything's needed to run tests: download dependencies and run services like a database (run DB migrations etc) and executes tests. When the process is finished, it tears everything down.
+
+### Run project locally
+
+```
+gimma run
+```
+
+The following command setups everything's needed to run the application: download dependencies and run services like a database (run DB migrations etc) and runs the application. When the process is finished, it tears everything down.
+
 ## Generating API docs
 
 ## Generating interal API
